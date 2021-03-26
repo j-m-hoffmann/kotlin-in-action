@@ -8,7 +8,7 @@ class Point(val x: Int, val y: Int) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(Point(10, 20) == Point(10, 20))
     println(Point(10, 20) != Point(5, 5))
     println(null == Point(1, 2))

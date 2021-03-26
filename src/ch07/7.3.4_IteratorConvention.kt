@@ -1,6 +1,5 @@
 package ch07.ex3_4_IteratorConvention
 
-import java.util.Date
 import java.time.LocalDate
 
 operator fun ClosedRange<LocalDate>.iterator(): Iterator<LocalDate> =
@@ -15,7 +14,7 @@ operator fun ClosedRange<LocalDate>.iterator(): Iterator<LocalDate> =
             }
         }
 
-fun main(args: Array<String>) {
+fun main() {
     val newYear = LocalDate.ofYearDay(2017, 1)
     val daysOff = newYear.minusDays(1)..newYear
     for (dayOff in daysOff) { println(dayOff) }

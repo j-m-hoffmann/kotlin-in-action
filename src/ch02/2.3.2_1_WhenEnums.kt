@@ -15,6 +15,6 @@ fun getMnemonic(color: Color) =
         Color.VIOLET -> "Vain"
     }
 
-fun main(args: Array<String>) {
+fun main() {
     println(getMnemonic(Color.BLUE))
 }

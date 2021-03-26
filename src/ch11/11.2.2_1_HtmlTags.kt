@@ -30,6 +30,6 @@ fun createTable() =
         }
     }
 
-fun main(args: Array<String>) {
+fun main() {
     println(createTable())
 }

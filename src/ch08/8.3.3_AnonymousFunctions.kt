@@ -11,6 +11,6 @@ fun lookForAlice(people: List<Person>) {
     })
 }
 
-fun main(args: Array<String>) {
+fun main() {
     lookForAlice(people)
 }

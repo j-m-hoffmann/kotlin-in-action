@@ -11,7 +11,7 @@ operator fun Point.get(index: Int): Int {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val p = Point(10, 20)
     println(p[1])
 }

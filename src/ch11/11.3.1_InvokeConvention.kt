@@ -6,7 +6,7 @@ class Greeter(val greeting: String) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val bavarianGreeter = Greeter("Servus")
     bavarianGreeter("Dmitry")
 }

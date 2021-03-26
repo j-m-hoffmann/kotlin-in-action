@@ -11,7 +11,7 @@ class DependencyHandler {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val dependencies = DependencyHandler()
     dependencies.compile("org.jetbrains.kotlin:kotlin-stdlib:1.0.0")
     dependencies {

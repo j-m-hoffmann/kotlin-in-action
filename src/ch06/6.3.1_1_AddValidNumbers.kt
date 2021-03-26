@@ -1,6 +1,5 @@
 package ch06.AddValidNumbers
 
-import java.util.ArrayList
 import java.io.BufferedReader
 import java.io.StringReader
 
@@ -32,7 +31,7 @@ fun addValidNumbers(numbers: List<Int?>) {
     println("Invalid numbers: $invalidNumbers")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val reader = BufferedReader(StringReader("1\nabc\n42"))
     val numbers = readNumbers(reader)
     addValidNumbers(numbers)

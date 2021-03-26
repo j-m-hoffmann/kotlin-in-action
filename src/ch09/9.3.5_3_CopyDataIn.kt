@@ -7,7 +7,7 @@ fun <T> copyData(source: MutableList<T>,
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val ints = mutableListOf(1, 2, 3)
     val anyItems = mutableListOf<Any>()
     copyData(ints, anyItems)

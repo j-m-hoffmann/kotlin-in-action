@@ -1,7 +1,7 @@
 package ch07.ex5_3_2_ImplementingDelegatedProperties1
 
-import java.beans.PropertyChangeSupport
 import java.beans.PropertyChangeListener
+import java.beans.PropertyChangeSupport
 
 open class PropertyChangeAware {
     protected val changeSupport = PropertyChangeSupport(this)
@@ -42,7 +42,7 @@ class Person(
         set(value) { _salary.setValue(value) }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val p = Person("Dmitry", 34, 2000)
     p.addPropertyChangeListener(
         PropertyChangeListener { event ->

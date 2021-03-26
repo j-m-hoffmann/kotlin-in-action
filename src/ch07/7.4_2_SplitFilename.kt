@@ -1,7 +1,5 @@
 package ch07.SplitFilename
 
-import java.io.File
-
 data class NameComponents(val name: String,
                           val extension: String)
 
@@ -10,7 +8,7 @@ fun splitFilename(fullName: String): NameComponents {
     return NameComponents(result[0], result[1])
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val (name, ext) = splitFilename("example.kt")
     println(name)
     println(ext)

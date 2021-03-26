@@ -11,7 +11,7 @@ operator fun MutablePoint.set(index: Int, value: Int) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val p = MutablePoint(10, 20)
     p[1] = 42
     println(p)

@@ -6,6 +6,6 @@ fun printFirst(list: List<*>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     printFirst(listOf("Svetlana", "Dmitry"))
 }

@@ -5,7 +5,7 @@ fun twoAndThree(operation: (Int, Int) -> Int) {
     println("The result is $result")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     twoAndThree { a, b -> a + b }
     twoAndThree { a, b -> a * b }
 }

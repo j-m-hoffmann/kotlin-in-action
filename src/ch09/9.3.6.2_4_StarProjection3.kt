@@ -30,7 +30,7 @@ object Validators {
                 "No validator for ${kClass.simpleName}")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     Validators.registerValidator(String::class, DefaultStringValidator)
     Validators.registerValidator(Int::class, DefaultIntValidator)
     println(Validators[String::class].validate("Kotlin"))

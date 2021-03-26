@@ -14,7 +14,7 @@ object DefaultIntValidator : FieldValidator<Int> {
     override fun validate(input: Int) = input >= 0
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val validators = mutableMapOf<KClass<*>, FieldValidator<*>>()
     validators[String::class] = DefaultStringValidator
     validators[Int::class] = DefaultIntValidator

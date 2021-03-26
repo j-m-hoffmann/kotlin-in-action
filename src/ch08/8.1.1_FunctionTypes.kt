@@ -7,7 +7,7 @@ fun performRequest(
     /*...*/
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val url = "http://kotl.in"
     performRequest(url) { code, content -> /*...*/ }
     performRequest(url) { code, page -> /*...*/ }

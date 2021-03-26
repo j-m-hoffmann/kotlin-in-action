@@ -1,7 +1,7 @@
 package ch07.ex5_3_3_ImplementingDelegatedProperties2
 
-import java.beans.PropertyChangeSupport
 import java.beans.PropertyChangeListener
+import java.beans.PropertyChangeSupport
 import kotlin.reflect.KProperty
 
 open class PropertyChangeAware {
@@ -35,7 +35,7 @@ class Person(
     var salary: Int by ObservableProperty(salary, changeSupport)
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val p = Person("Dmitry", 34, 2000)
     p.addPropertyChangeListener(
         PropertyChangeListener { event ->

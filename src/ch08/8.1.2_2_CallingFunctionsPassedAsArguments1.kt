@@ -9,6 +9,6 @@ fun String.filter(predicate: (Char) -> Boolean): String {
     return sb.toString()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println("ab1c".filter { it in 'a'..'z' })
 }

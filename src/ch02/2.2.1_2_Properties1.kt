@@ -5,7 +5,7 @@ class Person(
     var isMarried: Boolean
 )
 
-fun main(args: Array<String>) {
+fun main() {
     val person = Person("Bob", true)
     println(person.name)
     println(person.isMarried)

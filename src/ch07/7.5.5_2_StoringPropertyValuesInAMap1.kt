@@ -10,7 +10,7 @@ class Person {
     val name: String by _attributes
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val p = Person()
     val data = mapOf("name" to "Dmitry", "company" to "JetBrains")
     for ((attrName, value) in data)

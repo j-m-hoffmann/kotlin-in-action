@@ -10,7 +10,7 @@ class Client(val name: String, val postalCode: Int) {
     override fun toString() = "Client(name=$name, postalCode=$postalCode)"
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val processed = hashSetOf(Client("Alice", 342562))
     println(processed.contains(Client("Alice", 342562)))
 }

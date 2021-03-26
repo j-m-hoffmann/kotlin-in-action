@@ -10,7 +10,7 @@ class Person(val name: String) {
     val emails by lazy { loadEmails(this) }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val p = Person("Alice")
     p.emails
     p.emails

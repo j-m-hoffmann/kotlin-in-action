@@ -14,6 +14,6 @@ fun lookForAlice(people: List<Person>) {
     println("Alice is not found")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     lookForAlice(people)
 }

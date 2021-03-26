@@ -6,6 +6,6 @@ fun yellAtSafe(person: Person) {
     println((person.name ?: "Anyone").toUpperCase() + "!!!")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     yellAtSafe(Person(null))
 }

@@ -8,7 +8,7 @@ fun buildString(
     return sb.toString()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val s = buildString {
         this.append("Hello, ")
         append("World!")

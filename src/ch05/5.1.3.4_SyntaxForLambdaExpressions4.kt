@@ -1,6 +1,6 @@
 package ch05.ex1_3_4_SyntaxForLambdaExpressions4
 
-fun main(args: Array<String>) {
+fun main() {
     val sum = { x: Int, y: Int ->
        println("Computing the sum of $x and $y...")
        x + y

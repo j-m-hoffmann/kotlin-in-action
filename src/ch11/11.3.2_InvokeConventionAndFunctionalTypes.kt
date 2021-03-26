@@ -18,7 +18,7 @@ class ImportantIssuesPredicate(val project: String)
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val i1 = Issue("IDEA-154446", "IDEA", "Bug", "Major",
                    "Save settings failed")
     val i2 = Issue("KT-12183", "Kotlin", "Feature", "Normal",

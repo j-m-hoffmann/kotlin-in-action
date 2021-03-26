@@ -9,6 +9,6 @@ fun getWarmth(color: Color) = when(color) {
     BLUE, INDIGO, VIOLET -> "cold"
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(getWarmth(Color.ORANGE))
 }

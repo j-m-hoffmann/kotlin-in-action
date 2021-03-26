@@ -13,7 +13,7 @@ fun getShippingCostCalculator(
     return { order -> 1.2 * order.itemCount }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val calculator =
         getShippingCostCalculator(Delivery.EXPEDITED)
     println("Shipping costs ${calculator(Order(3))}")

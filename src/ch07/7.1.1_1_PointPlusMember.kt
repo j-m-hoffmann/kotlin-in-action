@@ -6,7 +6,7 @@ data class Point(val x: Int, val y: Int) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val p1 = Point(10, 20)
     val p2 = Point(30, 40)
     println(p1 + p2)

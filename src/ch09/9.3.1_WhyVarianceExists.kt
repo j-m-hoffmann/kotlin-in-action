@@ -4,6 +4,6 @@ fun printContents(list: List<Any>) {
     println(list.joinToString())
 }
 
-fun main(args: Array<String>) {
+fun main() {
     printContents(listOf("abc", "bac"))
 }

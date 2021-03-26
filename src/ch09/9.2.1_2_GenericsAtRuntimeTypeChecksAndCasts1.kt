@@ -6,6 +6,6 @@ fun printSum(c: Collection<Int>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     printSum(listOf(1, 2, 3))
 }

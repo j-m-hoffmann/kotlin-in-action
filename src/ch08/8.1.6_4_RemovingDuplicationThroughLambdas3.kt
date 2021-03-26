@@ -19,7 +19,7 @@ val log = listOf(
 fun List<SiteVisit>.averageDurationFor(predicate: (SiteVisit) -> Boolean) =
         filter(predicate).map(SiteVisit::duration).average()
 
-fun main(args: Array<String>) {
+fun main() {
     println(log.averageDurationFor {
         it.os in setOf(OS.ANDROID, OS.IOS) })
     println(log.averageDurationFor {

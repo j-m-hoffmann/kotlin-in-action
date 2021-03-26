@@ -39,6 +39,6 @@ fun createAnotherTable() = table {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(createAnotherTable())
 }

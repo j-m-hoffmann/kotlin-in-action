@@ -21,6 +21,6 @@ val averageMobileDuration = log
     .map(SiteVisit::duration)
     .average()
 
-fun main(args: Array<String>) {
+fun main() {
     println(averageMobileDuration)
 }

@@ -16,8 +16,13 @@ fun <T> Collection<T>.joinToString(
     return result.toString()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val list = listOf(1, 2, 3)
-    println(list.joinToString(separator = "; ",
-          prefix = "(", postfix = ")"))
+    println(
+        list.joinToString(
+            separator = "; ",
+            prefix = "(",
+            postfix = ")"
+        )
+    )
 }

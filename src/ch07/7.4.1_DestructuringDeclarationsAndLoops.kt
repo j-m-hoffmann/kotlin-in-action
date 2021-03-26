@@ -6,7 +6,7 @@ fun printEntries(map: Map<String, String>) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val map = mapOf("Oracle" to "Java", "JetBrains" to "Kotlin")
     printEntries(map)
 }

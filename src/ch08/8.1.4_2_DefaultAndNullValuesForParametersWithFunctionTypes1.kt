@@ -19,7 +19,7 @@ fun <T> Collection<T>.joinToString(
     return result.toString()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val letters = listOf("Alpha", "Beta")
     println(letters.joinToString())
     println(letters.joinToString { it.toLowerCase() })
